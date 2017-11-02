@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - '5.4'
+  - '5.6'
+  - '7.0'
+  - '7.1'
+
+install:
+    - flags="--ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress"
+    - composer install $flags
+
+before_script:
+    - git config --global user.name travis-ci
+    - git config --global user.email travis@example.com
