@@ -57,10 +57,6 @@ Output (number with checksum)
 kf12ois
 ```
 
-Note that only the image with the relative path has become a `cid` value as source.
-
-If an image with relative path can not be found an `SwiftHtmlImageException` will be thrown.
-
 ## Installing
 
 You can use [Composer](http://getcomposer.org/) to add the [package](https://packagist.org/packages/stocker4all/swift-html-image) to your project:
