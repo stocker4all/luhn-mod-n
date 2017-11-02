@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/stocker4all/luhn-mod-n.svg?branch=master)](https://travis-ci.org/stocker4all/luhn-mod-n) [![Latest Stable Version](https://poser.pugx.org/stocker4all/luhn-mod-n/version)](https://packagist.org/packages/stocker4all/luhn-mod-n) [![License](https://poser.pugx.org/stocker4all/luhn-mod-n/license)](https://packagist.org/packages/stocker4all/luhn-mod-n) [![Total Downloads](https://poser.pugx.org/stocker4all/luhn-mod-n/downloads.png)](https://packagist.org/packages/stocker4all/luhn-mod-n)
 
-`luhn-mod-n` is a very simple solution to generate and verify luhn mod n checksums. Possible bases (value for n) are between 2 and 36.
+`luhn-mod-n` is a very simple solution to generate and verify [luhn mod n](https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm) checksums. Possible bases (value for n) are between 2 and 36.
 Luhn mod 10 is well known from the credit card number checksum. But also in different bases it can be useful to have this checksum functionality.
 
 **Example for base 2:**

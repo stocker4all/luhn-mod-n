@@ -8,7 +8,7 @@ namespace S4A;
  * Creates and verifies checksums based on Luhn mod n algorithm.
  * Supported bases (values for n) are between 2 and 36.
  *
- * @link http://docs.phpdoc.org/references/phpdoc/tags/link.html Luhn mod N algorithm
+ * @link https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm Luhn mod N algorithm
  *
  * @package S4A
  */
