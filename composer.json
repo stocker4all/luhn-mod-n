@@ -1,0 +1,21 @@
+{
+    "name": "stocker4all/luhn-mod-n",
+    "description": "Generates and verifies luhn mod n checksums",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathias Stocker",
+            "email": "mathias@stocker4all.ch"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "S4A\\": "src/"
+        }
+    }
+}
