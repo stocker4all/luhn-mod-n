@@ -29,6 +29,8 @@ class LuhnModN
     public function createChecksum($number, $base, $returnCompleteNumber = true){
         assert($base > 1 && $base < 37, "Base needs to be between 2 and 36.");
 
+        $number = strtolower($number);
+
         $factor = 2;
         $sum = 0;
 
@@ -60,6 +62,8 @@ class LuhnModN
      */
     public function hasValidChecksum($number, $base){
         assert($base > 1 && $base < 37, "Base needs to be between 2 and 36.");
+
+        $number = strtolower($number);
 
         $factor = 1;
         $sum = 0;
