@@ -59,7 +59,7 @@ kf12ois
 
 ## Installing
 
-You can use [Composer](http://getcomposer.org/) to add the [package](https://packagist.org/packages/stocker4all/swift-html-image) to your project:
+You can use [Composer](http://getcomposer.org/) to add the [package](https://packagist.org/packages/stocker4all/luhn-mod-n) to your project:
 
 ```json
 {
